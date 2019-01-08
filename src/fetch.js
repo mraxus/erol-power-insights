@@ -1,6 +1,6 @@
 const http = require('http');
 
-const SERVER_URL = 'http://10.0.0.16:5500';
+const SERVER_URL = 'http://10.0.0.100:5500';
 
 module.exports = () => {
   return new Promise((resolve, reject) => {

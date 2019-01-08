@@ -3,9 +3,9 @@ const { generateFunctions } = require('./base');
 const LOG_NAME = 'real-energy'
 const OPTIONS = {
   decimals: 0,
-  label: 'Real Energy (Wh)',
+  label: 'Real Energy (kWh)',
   type: 'number',
-  units: 'Wh',
+  units: 'kWh',
 };
 
 module.exports = generateFunctions(LOG_NAME, OPTIONS);
